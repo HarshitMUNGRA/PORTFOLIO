@@ -1,4 +1,4 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -9,7 +9,28 @@
     font-family: 'Poppins',sans-serif;
 }
 
-.root{
-    --bg-color: #081b29:
+:root {
+    --bg-color: #081b29;
     --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --text-color:#00abf0;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: greenyellow;
 }
